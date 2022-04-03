@@ -57,8 +57,7 @@ require_once('../../Static/ConstGlobal.php');
         }
       }
       else {
-        // $vista = SRVURL."sesion/"; //si no hay resultado me regresa a la vista de sesion
-        $url = 'sesion/';
+        $url = 'sesion/'; //si no hay resultado me regresa a la vista de sesion
         return $alertas = modelADG :: alertas('Usuario o Contraseña incorrecta!',$url);
       }
       return $respuesta = '<script>window.location.assign("'.$vista.'")</script>';
