@@ -1,0 +1,32 @@
+.main {
+  padding-bottom: 10%;
+}
+.dashboard {
+  margin: 2rem 0;
+  height: 100%;
+}
+@media (min-width: 480px) {
+  .dashboard {
+    margin: 2.8rem 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .dashboard {
+    margin: 0 5rem;
+  }
+}
+
+.dash-flex {
+  display: flex;
+  flex-direction: row;
+  column-gap: 35rem;
+}
+.dash-flex__block {
+  display: flex;
+  flex-direction: column;
+}
+.dash-imgp {
+  margin: 2rem;
+  width: 8rem;
+  height: 8rem;
+}

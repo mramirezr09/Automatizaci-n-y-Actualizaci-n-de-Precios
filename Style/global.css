@@ -1,0 +1,111 @@
+:root {
+
+  --fuenteHeading: 'PT Sans', sans-serif;
+  --fuenteParrafos: 'Open Sans', sans-serif;
+
+  --morado: #fcbc5c;
+  --azulFuerte: #faa137;
+  --titulosColor: #f28c26;
+  --azulPanel: #2F576E;
+  --azulFondo: #ec8c43;
+  --crema: #F0E3E3;
+  --degrad: #DFE9F3;
+  --blanco: #ffffff;
+  --negro: #000000;
+
+  /* tablas */
+  --fondot: #fbebb4;
+  --fondoheadt: #e77f4e;
+
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /*1 rem es igual a 10px*/
+
+}
+*,*:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuenteParrafos);
+    font-size: 1.6rem;
+    line-height: 2;
+    /* background-image: linear-gradient(to top, var(--degrad) 0%, var(--blanco) 100% ); */
+}
+
+/*Globales*/
+.contenedor {
+    width: min(90%, 120rem);
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+h1, h2, h3, h4 {
+    font-family: var(--fuenteHeading);
+    line-height: 1.2;
+    color: var(--titulosColor);
+}
+h1 {
+    font-size: 4.8rem;
+}
+h2 {
+    font-size: 4rem;
+}
+h3 {
+    font-size: 3.2rem;
+}
+h4 {
+    font-size: 2.8rem;
+}
+img {
+    max-width: 100%;
+}
+
+/*Utilidades*/
+
+.contenido-t {
+  height: 80rem;
+}
+@media (min-width: 480px) {
+  .contenido-t {
+    margin: 1px 5rem;
+    height: 56rem;
+  }
+}
+
+.sombra{
+  -webkit-box-shadow: 0px 5px 15px 0px rgba(125,125,125,0.67);
+  -moz-box-shadow: 0px 5px 15px 0px rgba(125,125,125,0.67);
+  box-shadow: 0px 5px 15px 0px rgba(125,125,125,0.67);
+}
+.boton {
+    display: block;
+    font-family: var(--fuenteHeading);
+    color: var(--blanco);
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 1rem 0;
+    border: .1rem solid;
+    border-radius: 0.5rem;
+    transition: background-color .3s;
+}
+.boton:hover {
+    cursor: pointer;
+    color: var(--titulosColor);
+    background-color: var(--blanco);
+
+}
+.boton--primario {
+    background-color: var(--azulFuerte);
+}
+.boton--secundario {
+    background-color: var(--morado);
+}
+.center {
+    text-align: center;
+}

@@ -1,0 +1,27 @@
+.dashboard-e {
+  margin: 0 1rem;
+  height: 62rem;
+}
+.panel {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 65rem;
+  background-color: var(--azulFuerte); /* var(--azulPanel) */
+  color: var(--degrad);
+  font-size: 5rem;
+  border-radius: 1rem;
+}
+.block {
+  display: block;
+  text-align: center;
+}
+.block:hover {
+  background-color: var(--azulFondo);
+  border-radius: 1rem;
+}
+.imgp {
+  min-width: 30rem;
+}

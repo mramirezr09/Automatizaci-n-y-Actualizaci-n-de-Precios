@@ -1,0 +1,16 @@
+footer {
+  position:fixed;
+  bottom: 0;
+  width: 100%;
+  clear:both;
+  text-align: center;
+  background-color: var(--azulFuerte);
+  color: var(--crema);
+}
+
+footer a {
+  color: var(--crema);
+}
+footer p {
+  margin: 0;
+}
