@@ -1,5 +1,5 @@
 <?php // Definicion de MSSQL
-  define('SERVER', '192.168.1.201:3306');// Instancia Productiva
+  define('SERVER', 'localhost:3306');// Instancia Productiva
   define('BBDD_MSSQL','proyecto_adg');
   define('USER','DSBM');// Usuario Productivo
   define('PASS_','Uz./w@xZpd5O4cJc');

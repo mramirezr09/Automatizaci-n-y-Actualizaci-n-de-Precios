@@ -23,7 +23,6 @@ require_once('../../Static/ConstGlobal.php');
         Pass = '$pass' and
         status = 1
       ";
-      // print_r($query);
 
       $redycon = $conDB -> query($query); //realiza la consulta ala DB
       $numFilas = $redycon -> num_rows; //cuenta el numero de filas que regresa la consulta

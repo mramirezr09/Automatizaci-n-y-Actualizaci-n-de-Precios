@@ -14,7 +14,7 @@
   }
   else {
     // if(!isset($_SESSION)) {
-    //   session_start(array('name'=>'INV'));
+    //   session_start(array('name'=>'ADG'));
     // }
     require_once($vista);
   }
